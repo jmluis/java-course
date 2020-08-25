@@ -1,3 +1,5 @@
+package me.chbshoot.ch3;
+
 public class MyFirstClass {
     public static void main(String[] args) {
         String make = "Hyundai";
