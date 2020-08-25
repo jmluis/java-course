@@ -10,7 +10,7 @@ public class MyFirstClass {
         short speed;
 
 
-        speed = (short)(gear * 20)
+        speed = (short)(gear * 20);
         revolutionsPerMin = speed * gear;
         System.out.println("The make is " + make);
         System.out.println("The model is " + model);
