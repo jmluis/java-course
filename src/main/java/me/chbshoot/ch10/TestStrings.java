@@ -18,6 +18,7 @@ public class TestStrings {
             // (2) set and reset a str
             String tempStr = "example.doc";
             tempStr = "example.bak";
+            tempStr.toString(); // linter warnings
 
             // (3) enter two str and compare their lexicographical position
             String a, b;
