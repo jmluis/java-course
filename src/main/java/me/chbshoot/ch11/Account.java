@@ -1,6 +1,6 @@
 package me.chbshoot.ch11;
 
-public class Account {
+public abstract class Account {
     public static final double DEFAULT_WITHDRAWAL = 20.0;
 
     private static double interestRate;
@@ -12,12 +12,7 @@ public class Account {
         this.name = name;
     }
 
-    public void addInterest() {
-        // double bal = getBalance();
-        // bal *= (getInterestRate() + 1);
-        // bal = (double) ((bal * 100) / 100);
-        // setBalance(bal);
-     }
+    public abstract void addInterest();
 
     public boolean withdraw() {
         return withdraw(DEFAULT_WITHDRAWAL);

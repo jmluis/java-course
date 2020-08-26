@@ -3,7 +3,7 @@ package me.chbshoot.ch11;
 public class TestInheritance {
     public static void main(String[] args) {
         Account[] accts = new Account[3];
-        accts[0] = new Account("George W. Bush", 2);
+        accts[0] = new SavingsAccount("George W. Bush", 2);
         accts[1] = new SavingsAccount("Donald Trump", 4);
         accts[2] = new CurrentAccount("Barack Obama", 6);
 
